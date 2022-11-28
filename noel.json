@@ -1,0 +1,66 @@
+{
+    "history":
+    [
+        {
+            "year": 2018,
+            "draw":
+            {
+            "Géraud": "Marie Pierre",
+            "Rebecca": "Thomas",
+            "Benoît": "Rebecca",
+            "Marie Pierre": "Claire",
+            "Olivier": "Géraud",
+            "Thomas": "Benoît",
+            "Claire": "Olivier"
+            }
+        },
+        {
+            "year": 2019,
+            "draw":
+            {
+              "Géraud": "Thomas",
+              "Rebecca": "Claire",
+              "Benoît": "Marie Pierre",
+              "Marie Pierre": "Géraud",
+              "Olivier": "Benoît",
+              "Thomas": "Rebecca",
+              "Claire": "Olivier"
+            }
+        },
+        {
+            "year": 2020,
+            "draw":
+            {
+                "Géraud": "Claire",
+                "Rebecca": "Marie Pierre",
+                "Benoît": "Géraud",
+                "Marie Pierre": "Benoît",
+                "Olivier": "Rebecca",
+                "Thomas": "Olivier",
+                "Claire": "Thomas"
+            }
+        },
+        {
+            "year": 2021,
+            "draw":
+            {
+            "Géraud": "Thomas",
+            "Rebecca": "Claire",
+            "Benoît": "Marie Pierre",
+            "Marie Pierre": "Géraud",
+            "Olivier": "Benoît",
+            "Thomas": "Rebecca",
+            "Claire": "Olivier",
+            }
+        }
+    ],
+    "exclusion": {
+        "Géraud": ["Rebecca"],
+        "Rebecca": ["Géraud"],
+        "Marie Pierre": ["Olivier"],
+        "Olivier": ["Marie Pierre"],
+        "Thomas": ["Claire"],
+        "Claire": ["Thomas"],
+        "Benoît": []
+    }
+}
